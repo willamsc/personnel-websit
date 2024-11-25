@@ -1,0 +1,21 @@
+spring:
+  # 开发环境数据源配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/personal_website?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+  # 开发环境Redis配置
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+
+# 开发环境日志配置
+logging:
+  level:
+    root: INFO
+    com.willamsc.personalwebsite: DEBUG
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG

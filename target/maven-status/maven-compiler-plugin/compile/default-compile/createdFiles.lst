@@ -1,0 +1,3 @@
+com\willamsc\personalwebsite\common\BaseEntity.class
+com\willamsc\personalwebsite\entity\User.class
+com\willamsc\personalwebsite\document\ArticleDocument.class
